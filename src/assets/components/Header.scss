@@ -1,0 +1,22 @@
+
+    .caption{
+        position: absolute;
+        top: 100px;
+        margin: 0px 100px 0px;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        .contact-button{
+            cursor: pointer;
+            outline: none;
+            width: 200px;
+            height: 30px;
+            margin-top: 5px;
+            border: none;
+            background: lightgreen;
+
+            border-radius: 7px;  
+        }
+    }
+
+ 

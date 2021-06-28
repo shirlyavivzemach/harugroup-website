@@ -1,0 +1,14 @@
+// Setup:
+@import "setup/variables.scss";
+@import "setup/typography.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// Basics:
+@import "basics/base.scss";
+@import "basics/layout.scss";
+@import "basics/helpers.scss";
+
+//components
+@import "components/Header.scss";
+@import "components/HomePage.scss";

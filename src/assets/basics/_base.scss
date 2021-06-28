@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.6;
+  
+}
+
+body {
+   
+    margin: 0;
+    font-family: $bodyFont;
+   
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-family: $titleFont;
+    font-weight: bold;
+  
+}
+
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
