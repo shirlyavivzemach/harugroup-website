@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from '../cmps/Nav';
+import { FormDialog } from '../cmps/FormDialog';
 import { Header } from '../cmps/Header';
 import { About } from '../cmps/About';
 import { OurCustomers } from '../cmps/OurCustomers';
@@ -11,7 +11,7 @@ export function HomePage() {
             <Header />
             <About />
             <OurCustomers/>
-            <ContactForm/>
+        {/* <FormDialog/> */}
         </div>
     )
 }

@@ -6,16 +6,20 @@
         font-size: 20px;
         flex-direction: column;
         align-items: center;
-        .contact-button{
+        .MuiButton-outlinedPrimary{
             cursor: pointer;
             outline: none;
-            width: 200px;
+            width: 300px;
             height: 30px;
             margin-top: 5px;
             border: none;
-            background: lightgreen;
-
+            background: rgb(144, 238, 144);
+color: black;
             border-radius: 7px;  
+        }
+        .MuiButton-outlinedPrimary:hover{
+            border: 1px solid lightgreen;
+    background-color: rgba(144, 238, 144, 0.04);
         }
     }
 
